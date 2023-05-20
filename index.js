@@ -110,6 +110,9 @@ app.get('/', (req, res) => {
     res.send('Hello pain!')
 })
 
+app.get('/dhur', (req, res) => {
+    res.send('Hello pain!')
+})
 
 
 app.listen(port, () => {
